@@ -1,0 +1,35 @@
+body { background-color: rgb(166, 227, 232);}
+
+
+header{ text-align: center;
+        color: rgb(38, 117, 126);
+        font-size: 45px;
+        font-weight: bold; 
+         text-decoration: underline;}
+.flex-container{ 
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+  
+    
+    
+}
+.flex-container img {
+    max-width: 100%;
+    border-radius: 15px;
+    height:20%
+   
+}
+main{ color: rgb(1, 75, 75);
+      font-size: 35px;}
+
+th{ color: rgb(12, 88, 103);} 
+
+table,td{ 
+    border:5px dashed;
+   color: rgb(1, 75, 75);
+    
+}     
+table{ width: 100%;
+    border-collapse: collapse;
+}
