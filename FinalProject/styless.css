@@ -1,0 +1,273 @@
+header{ background-color:#f9f1e2;
+    align-items: center;
+    justify-content: center;
+   
+     
+   
+}
+
+.headerr{ display: flex;
+         justify-content: space-between;
+        
+
+       }
+#header{ display:flex;
+     justify-content: right;
+     align-items: center;
+     margin-right: 100px;
+     gap:30px;
+    
+     }
+     hr{ color: #071b53;
+         }
+a{ 
+
+align-items: center;
+ display: flex;
+ justify-content: center;
+ color:#092675;
+ padding:10px;
+ font-size: 30px;
+ font-weight: bold;
+ text-decoration: none;
+ transition: 1s;
+
+
+ }  
+ .search{ 
+    display: flex;
+    align-items: center;
+    margin-right:50px;}   
+.search input[type="search"]{ 
+background-color: #fff9f0;
+color: #092675;
+
+
+} 
+ a:hover{ 
+     
+    font-size:35px;}
+    .search{ 
+        display: flex;
+        align-items: center;
+        margin-right:50px;}   
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ 
+
+}
+
+li {
+ float: left;
+}
+
+li a, .dropbtn {
+ display: inline-block;
+ color: rgb(9, 31, 101);
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+
+li.dropdown {
+ display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f1e2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  
+  
+  .dropdown-content a {
+    color:#0a1d52;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    border: #0a1d52 solid 1px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .firstimg{  
+    display: flex;    
+     margin-left: 150px;
+     height: 70px;
+     width: 80px;}  
+  body{ background-color:#f9f1e2}
+.headerimg{  background-image: url(img/restaurant-paris-sphere-plat-DSC6519.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin-top:100px;}
+
+      #text2{font-size: 30px;
+       font-weight: bold;
+       color: #0f2e84;
+       text-align: center;
+       animation: movingtxt 3s infinite;} 
+@keyframes movingtxt {
+0%,100%{transform: translateY(0);
+     transform: scale(1);
+    }
+50%{ transform: translateY(-10px);
+ transform: scale(1.1);}
+}
+#text3{font-size: 30px;
+    font-weight: bold;
+    color: #0f2e84;
+    text-align: center;
+    animation: movingtxt 3s infinite;} 
+@keyframes movingtxt {
+0%,100%{transform: translateY(0);
+  transform: scale(1);
+ }
+50%{ transform: translateY(-10px); }
+}
+#text4{font-size: 30px;
+    font-weight: bold;
+    color: #0f2e84;
+    text-align: center;
+    animation: movingtxt 3s infinite;} 
+@keyframes movingtxt {
+0%,100%{transform: translateY(0);
+  transform: scale(1);
+ }
+50%{ transform: translateY(-10px);
+transform: scale(1.1);}
+}
+#text5{font-size: 30px;
+    font-weight: bold;
+    color: #0f2e84;
+    text-align: center;
+    animation: movingtxt 3s infinite;} 
+@keyframes movingtxt {
+0%,100%{transform: translateY(0);
+  transform: scale(1);
+ }
+50%{ transform: translateY(-10px);
+transform: scale(1.1);}
+}
+#text6{font-size: 30px;
+    font-weight: bold;
+    color: #0f2e84;
+    text-align: center;
+    animation: movingtxt 3s infinite;} 
+@keyframes movingtxt {
+0%,100%{transform: translateY(0);
+  transform: scale(1);
+ }
+50%{ transform: translateY(-10px);
+transform: scale(1.1);}
+}
+#remanu{ font-size: 80px;
+         padding: 300px;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: #0f318ece 2px 2px;
+         color:#f9f1e2;}       
+         .menuuu{font-family:'sour gummy',sans-serif ;}
+         #txt::first-letter{ color:rgb(4, 26, 72);
+                             font-size: 40px;
+                         }    
+                    
+          #txt2{text-align: center;
+                color:#0f318e;
+                 font-size: 25px;}
+           #txt2::first-line{  color: #112e7f;
+                              font-size: 30px;
+                              font-weight: bold;}  
+       
+         #txt3{text-align: center;
+           color:#0f318e;
+            font-size: 25px;}  
+         #txt3::first-line{ font-weight: bold;
+                             }  
+       
+         #txt4{text-align: center;
+           color:#0f318e;
+            font-size: 25px;}  
+         #txt4::first-line{ font-weight: bold;}   
+          #txt5{text-align: center;
+           color:#0f318e;
+            font-size: 25px;}    
+          #txt5::first-line{ font-weight: bold;}   
+          #txt6{text-align: center;
+            color:#0f318e;
+             font-size: 25px;} 
+             #txt6::first-line{font-weight: bold;}
+
+          
+          
+ .img{ display: flex;
+        margin-top:100px;
+        justify-content: space-evenly;}      
+ .img img{ width:360px;
+           height: 300px;
+           border-radius: 20px;
+           }   
+           footer {
+        margin-top:100px;
+          background-color:#0a1d52;
+          color: #ffffff;
+          padding: 20px 0;
+          font-size: 14px;
+                          }
+                          
+         .footer-container {
+         display: flex;
+          justify-content: space-around;
+        align-items: flex-start;
+          flex-wrap: wrap;
+         max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          }
+                          
+        .footer-section {
+         margin: 10px;
+         min-width: 200px;
+         font-size: 20px;
+          }
+                          
+         .footer-section h4 {
+          margin-bottom: 10px;
+          color:antiquewhite
+         }
+                          
+         .footer-section ul {
+          list-style: none;
+          padding: 0;
+         }
+                          
+         .footer-section ul li {
+          margin-bottom: 5px;
+          }
+                          
+         .footer-section ul li a {
+         text-decoration: none;
+         color: #ffffff;
+          }
+                          
+          .footer-section ul li a:hover {  color: #f2e7bc;  }
+                          
+         .footer-bottom {
+          text-align: center;
+          margin-top: 20px;
+          font-size: 15px;
+          border-top: 1px solid #ffffff;
+          padding-top: 10px;
+          }                   
+         
+          
+                   
