@@ -1,0 +1,84 @@
+.header{ display: flex;
+         align-items: center; 
+        justify-content: space-between;
+        border-radius: 10px;
+        background-color: rgb(101, 101, 101);
+        width: 90%;
+        margin: auto;
+         }
+ 
+body{ background-color: rgb(210, 209, 209);}
+.header img{ 
+           height: 100px;
+            width: 130px;
+            }
+.header a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px; 
+  border-radius: 10px;
+}
+a:hover {
+  background-color: #ddd;
+  color: rgb(39, 38, 38);}
+img
+    { 
+      width: 100%;
+      height: 60%;
+      border-radius: 5px;
+     
+    }
+.image-text{ 
+             position: absolute;
+             top: 70%;
+             left:0%;
+             transform: (-50%,-50%);
+             font-size: 60px;
+             text-align: center;
+             text-decoration: bold;
+             color:whitesmoke;
+             background-color:rgba(112, 91, 73, 0.356);
+             border-radius: 5px;}
+ 
+                         
+
+ .text { font-size:30px;
+              font-weight: bold;
+               color:#ffffff;
+              animation: mymove 3s infinite;
+              position: relative;} 
+
+  @keyframes mymove { 
+    0% { top: 0px ; left:100px}
+    25%{ top: 0px;left:300px}
+    50%{ top:0px;left:500px}
+    75%{ top:0px;left:600px}
+    100%{ top:0px;left:800px}
+  }                   
+  h1{ color: rgb(128, 122, 122);
+      text-decoration: bold;}
+  .main-img{ display:flex;
+             justify-content: center;
+             
+              width: 100%;
+              gap: 50px;
+              height: 90%;}
+
+  header{  align-items: center;
+          width: 80%;
+           height: 80%;
+          display:block;
+         margin:0 auto;}         
+ .image-container{ position: relative;
+                  display: inline-block;
+                  }  
+ .info{ text-align: left;
+         font-size: 30px ;
+        color: rgb(68, 68, 68);}
+ 
+
+p{ font-size: 30px;
+   }
+  
